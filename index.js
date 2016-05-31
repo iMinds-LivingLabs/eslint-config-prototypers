@@ -2,13 +2,9 @@
 
 module.exports = {
   "extends": [
-    './rules/possible-errors',
-    './rules/best-practices',
-    './rules/variables'
-  ].map( require.resolve ),
-  "parserOptions": {
-    "ecmaVersion": 6,
-  },
+    './core',
+    './style'
+  ].map(require.resolve),
   "env": {
     "browser": true,
     "node": true,
