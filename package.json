@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-prototypers",
+  "version": "0.0.0",
+  "description": "eslint config preset for iMinds/prototypers",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint \"rules/*.js\" index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iMinds-LivingLabs/eslint-config-prototypers.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "eslintconfig",
+    "styleguide",
+    "iminds"
+  ],
+  "author": "Camille Reynders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iMinds-LivingLabs/eslint-config-prototypers/issues"
+  },
+  "homepage": "https://github.com/iMinds-LivingLabs/eslint-config-prototypers#readme",
+  "devDependencies": {
+    "eslint": "^2.11.1"
+  }
+}
