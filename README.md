@@ -33,7 +33,7 @@ module.exports = {
 $ eslint my-file.js
 ```
 
-See the [rules](./blob/master/rules) directory for possible values.
+See the [rules](./rules) directory for possible values.
 
 ## License
 
